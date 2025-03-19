@@ -21,7 +21,7 @@ ScreenManager:
     name: 'login'
     MDBoxLayout:
         orientation: 'vertical'
-        padding: dp(60)
+        padding: dp(20)
         spacing: dp(20)
         md_bg_color: [1, 1, 1, 1]  # White background
 
@@ -37,7 +37,7 @@ ScreenManager:
             orientation: 'vertical'
             size_hint_y: None
             height: self.minimum_height
-            spacing: dp(10)
+            spacing: dp(60)
             padding: dp(20)
 
             MDLabel:
