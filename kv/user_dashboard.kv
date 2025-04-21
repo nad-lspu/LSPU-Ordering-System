@@ -1,0 +1,16 @@
+# kv/user_dashboard.kv
+<UserDashboard>:
+    MDBoxLayout:
+        orientation: "vertical"
+        padding: "20dp"
+        spacing: "10dp"
+
+        MDLabel:
+            text: "Welcome to the User Dashboard"
+            halign: "center"
+            font_style: "H5"
+
+    MDTopAppBar:
+        title: "Grab Piyu-d"
+        right_action_items: [["logout", lambda x: app.logout()]]
+
